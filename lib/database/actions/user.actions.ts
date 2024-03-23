@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 
 import { connectToDatabase} from "../mongoose";
 import User  from "../models/user.model";
-import { handleError } from '../actions/utils';
+import { handleError } from './utils';
 
 
 // CREATE
